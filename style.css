@@ -1,0 +1,106 @@
+a {
+  text-decoration: none;
+  color: #648DE5;
+}
+
+a:hover {
+  color: green;
+}
+
+body {
+  background-color: #E8E5DA;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: #304C89;
+  font-size: 15px;
+  /* line-height: 0.5; */
+}
+
+h1, h2, h3 {
+  color: #648DE5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.container {
+  /* bredde, margin */
+  width: 800 px;
+  margin: 5px auto;
+}
+
+.profilepic-rounded {
+  border-radius: 30% 30%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.list-SoMe {
+  padding-left: 0px; /* Sørger for sentrering av bildene */
+}
+
+.list-SoMe li {
+  list-style: none;
+  display: inline;
+}
+
+.list-SoMe i {
+  font-size: 40px;
+}
+
+.card-standard {
+  width: 200px;
+  margin: 20px auto;
+  padding: 30px 75px;
+  box-shadow: 2px 2px 2px #CDC392;
+  background-color: #F6F5F3;
+}
+
+.btn-darkblue {
+  background-color: #648DE5;
+  color: white;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-darkblue:hover {
+  color: white;
+  background-color: #CDC392;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    /* margin: 5px auto; */
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    /* margin: 5px auto; */
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .card-standard {
+    width: 150px;
+  }
+}
